@@ -1,0 +1,54 @@
+body{
+     font-family: verdana;
+     margin: 0;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    background-color: #FF6347;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+nav a{
+    color: white;
+}
+nav ul {
+    display:none;
+}
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    font: 20px/60px "futura-pt", sans-serif;
+
+}
+.toggle-nav{
+    font-size: 50px;
+    float: left;
+}
+.show{
+    display:block;
+}
+#projects{
+    margin-top: 100px;
+    min-height:300px;
+    background-color: #f4f4f9;
+
+}
+#about{
+    min-height:300px;
+    background-color: #b8dbd9;
+
+}
+#contact{
+    min-height:300px;
+    background-color: #f4f4f9;
+
+}
+
+
